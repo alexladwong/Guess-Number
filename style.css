@@ -120,28 +120,26 @@ h1 {
 
 
 
-
- 
 @media (max-width: 600px) {
   header h1 {
       font-size: 1.5rem;
   }
 
   .between {
-      font-size: 1rem;
+      font-size: 0.8rem;
   }
 
   .btn {
-      font-size: 1.8rem;
+      font-size: 1.3rem;
       padding: 0.5rem 1rem;
   }
 
   .number {
-      font-size: 2rem;
+      font-size: 1.5rem;
   }
 
   .guess {
-      font-size: 2rem;
+      font-size: 1.8rem;
   }
 
   .btn.check {
@@ -150,13 +148,13 @@ h1 {
   }
 
   .message {
-      font-size: 1.2rem;
+      font-size: 1.8rem;
       margin-bottom: 4rem;
-      margin-left: 16rem;
+      margin-left: 10rem;
   }
 
   .label-score, .label-highscore {
-      font-size: 1.8rem;
+      font-size: 1.2rem;
 
       margin-left: 10rem;
 
@@ -186,3 +184,7 @@ h1 {
     order: 4;
   }
 }
+
+
+
+
