@@ -120,9 +120,11 @@ h1 {
 
 
 
+
+ 
 @media (max-width: 600px) {
   header h1 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
   }
 
   .between {
@@ -149,12 +151,44 @@ h1 {
 
   .message {
       font-size: 1.2rem;
+      margin-bottom: 4rem;
+      margin-left: 16rem;
   }
 
   .label-score, .label-highscore {
-      font-size: 1rem;
+      font-size: 1.8rem;
+
+      margin-left: 10rem;
+
+
   }
 }
+
+/* Mobile styles using media query */
+@media (max-width: 600px) {
+  /* ... Previous styles ... */
+
+  /* Additional mobile styles */
+  main {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .left {
+      order: 4;
+      margin-top: -5rem;
+  }
+
+  .right {
+      order: 2;
+  }
+  .top{
+    order: 4;
+  }
+}
+
+
+
 
 
 
